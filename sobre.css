@@ -62,12 +62,14 @@ h1, p {
 
 h1 {
     margin-bottom: 1rem; 
+    color:#401F71;
    }
   
 h2 {
     padding: 50px;
     text-align: center;
     font-size: 30px;
+    color:#401F71;
    }
 
 div {
