@@ -1,0 +1,164 @@
+body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #EEF1FF;
+      margin: 0;
+     }
+
+
+aside {
+       width: 200px;
+       position:fixed;
+       left: 0;
+       top: 60px;
+       bottom: 140px;
+       background: #401F71;
+       border-radius: 8px;
+       box-sizing: border-box;
+       padding: 30px;
+       z-index: 100;
+      }
+
+aside ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+         }
+
+
+aside a {
+         display:block;
+         color: white;
+         text-decoration: none;
+         padding: 15px;
+         border-bottom: none;
+        }
+
+aside a:hover {
+               background-color: #EEF1FF;
+               color: #7469B6;
+              }
+
+#formulario {
+             max-width: 500px;
+             margin: 60px auto; 
+             padding: 20px;
+             background-color: white;
+             border-radius: 8px;
+             z-index: 1;
+            }
+       
+#formulario h3 {
+                color: #401F71; 
+                text-align: center; 
+                margin-bottom: 40px; 
+               }
+      
+#formulario p {
+               margin: 10px 0 10px; 
+               color: #401F71;
+              }
+      
+#formulario input[type="text"],
+#formulario textarea {
+                      width: calc(100% - 20px); 
+                      padding: 10px;
+                      margin-bottom: 20px; 
+                      border: 1px solid #401F71; 
+                      border-radius: 4px;
+                     }
+      
+#formulario textarea {
+                      resize: vertical; 
+                     }
+      
+#formulario input[type="submit"] {
+                                  background-color: #401F71; 
+                                  color: white; 
+                                  padding: 10px 20px;
+                                  border: none;
+                                  border-radius: 4px;
+                                  cursor: pointer; 
+                                  display: block; 
+                                  margin: 20px auto; 
+                                 }
+      
+#formulario input[type="submit"]:hover {
+                                        background-color: #401F71; 
+                                       }
+
+.social-media {
+               background-color: #7469B6;
+               text-align: center;
+               padding: 20px;
+               margin-top: 30px;
+              }
+
+.social-media a {
+                 margin: 0 20px;
+                 display: inline-block;
+                 vertical-align: middle;
+                }
+      
+.social-media img {
+                   width: 50px;
+                   height: auto;
+                  }
+
+@media (max-width: 768px) {
+                           aside {
+                                  width: 150px; 
+                                  padding: 10px;
+                                  top: 60px;
+                                  bottom: 140px;
+                                 }
+
+                           aside a {
+                                    padding: 8px; 
+                                    text-align: center;
+                                   }
+                           #formulario {
+                                        max-width: calc(100% - 150px);
+                                        margin-left: 150px;
+                                        padding: 10px;
+                                       }
+                            .social-media {
+                                           padding: 10px;
+                                           margin-top: 10px;
+                                          }
+                          }
+
+@media (max-width: 480px) {
+                           aside {
+                                  position: relative;
+                                  width: 100px;
+                                  top: auto; 
+                                  bottom: auto;
+                                  padding: 10px 0;
+                                  }
+
+                            aside ul {
+                                      flex-direction: column;
+                                      align-items: center;
+                                     }
+
+                           aside a {
+                                  padding: 8px;
+                                  text-align: center;
+                                   }
+
+                           #formulario {
+                                        margin: 20px;
+                                        max-width: calc(100% - 40px); 
+                                        padding: 10px;                                                                             
+                                       }
+
+                            .social-media {
+                                           padding: 10px;
+                                           margin-top: 10px;
+                                          }
+                            
+                            .social-media img {
+                                               width: 40px;
+                                               height: auto;
+                                              }
+                          }
