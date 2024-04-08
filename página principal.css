@@ -51,8 +51,8 @@ header {
           }
 
 .navbar a:hover {
-                 background-color: white;
-                 color: #401F71; 
+                 background-color: #401F71;
+                 color: white; 
                 }
 }
 
